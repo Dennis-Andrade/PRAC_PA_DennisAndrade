@@ -1,7 +1,10 @@
 ec/edu/espe/tech/inventory/controller/HealthController.class
 ec/edu/espe/tech/inventory/config/DataLoader.class
 ec/edu/espe/tech/inventory/enums/HardwareCategory.class
+ec/edu/espe/tech/inventory/dto/HardwareReportDto.class
+ec/edu/espe/tech/inventory/dto/HardwareSummaryDto.class
 ec/edu/espe/tech/inventory/InventoryApplication.class
 ec/edu/espe/tech/inventory/repository/HardwareRepository.class
 ec/edu/espe/tech/inventory/enums/HardwareStatus.class
 ec/edu/espe/tech/inventory/entity/HardwareEntity.class
+ec/edu/espe/tech/inventory/service/HardwareInventoryService.class
