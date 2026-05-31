@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPE-Tech Inventory</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">ESPE-Tech</p>
+                <h1>Inventario de Equipos Tecnologicos</h1>
+                <p class="description">Reporte analitico de disponibilidad y valoracion para equipos activos adquiridos en los ultimos cinco anos.</p>
+                <div class="actions">
+                    <button id="imperativeButton" class="primary-button" type="button">Reporte Imperativo</button>
+                    <button id="functionalButton" class="secondary-button" type="button">Reporte Funcional</button>
+                </div>
+            </div>
+            <div class="summary-panel">
+                <span class="panel-label">Resumen de Inventario</span>
+                <p id="summaryText">Selecciona un enfoque para generar el reporte.</p>
+            </div>
+        </section>
+
+        <section class="status-section">
+            <div class="status-item">
+                <span>Enfoque</span>
+                <strong id="methodText">Sin seleccionar</strong>
+            </div>
+            <div class="status-item">
+                <span>Categorias</span>
+                <strong id="categoryText">0</strong>
+            </div>
+            <div class="status-item">
+                <span>Valor total</span>
+                <strong id="totalText">$0.00</strong>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="section-heading">
+                <h2>Resultados por Categoria</h2>
+                <p id="stateText">Los resultados apareceran aqui.</p>
+            </div>
+            <div id="reportsGrid" class="reports-grid"></div>
+        </section>
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+</html>
